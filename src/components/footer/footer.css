@@ -1,0 +1,74 @@
+.font{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 153px;
+    /* font-weight: bold; */
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.parent1{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.email p{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 10px;
+}
+.email u{
+    margin-top: 26px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.buttons-style{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.now{
+    background-color: #151515;
+    color: white;
+    /* border: 1px solid #151515; */
+        border: 1px solid #3a3a3a;
+    box-shadow: 0 3px 8px #111;
+    width: 180px;
+    height: 60px;
+    border-radius: 2px;
+    margin: 10px 10px;
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #151515;
+    min-height: 86px;
+  align-items: center;
+  padding: 8px 10px; 
+  border: 1px solid #222;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+.arrow{
+    background-color: #c6ff32;
+    color: #151515;
+}
+.copyright{
+    color: white;
+}

@@ -1,0 +1,233 @@
+.about{
+  background-color: black;
+  padding: 80px 50px;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.system {
+  /* background-color: #c6ff32; */
+  color: #c6ff32;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.text {
+  color: white;
+  font-size: 28px;
+  letter-spacing: 3px;
+  line-height: 2;
+    margin-bottom: 20px;
+
+}
+.parent {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+.tab-button {
+  background-color: black;
+  color: white;
+  border: 1px solid grey;
+  box-shadow: black;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 80px;
+}
+.tab-button:hover{
+  background-color: #c6ff32;
+  color: black;
+}
+
+.icons i{
+      /* background-color: white;  */
+     /* color: #151515; */
+     color: #f5f4f0;
+}
+.awards-heading{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #45464b;
+  padding-bottom: 30px;
+}
+.awards-heading h1 {
+  font-size: 46px;
+  margin: 0;
+}
+.awards{
+  margin-top: 120px;
+  color: #f5f4f0;
+  min-height: 60vh;
+  box-sizing: border-box;
+}
+.awards-heading a {
+  color: #dfff32;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+.awards table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 0;
+}
+
+.awards td {
+  border-bottom: 1px solid #45464b;
+  padding: 28px 5px;
+  font-size: 17px;
+  font-weight: bold;
+}
+.awards td:first-child {
+  width: 40%;
+  text-align: left;
+}
+.awards td:nth-child(2) {
+  width: 45%;
+  text-align: center;
+}
+.awards td:last-child {
+  width: 15%;
+  text-align: right;
+}
+/* .align {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  width: 100%;
+  max-width: 1350px;
+  box-sizing: border-box;
+  margin: 30px auto;
+  padding: 40px 50px;
+  background: linear-gradient(120deg, #171717, #101010);
+  border-radius: 12px;
+}
+
+/* Left Image */
+/* .laptop {
+  width: 45%;
+  height: 500px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+/* Right Content */
+/* .column {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 0;
+  text-align: left;
+}*/
+
+.column h2 {
+  font-size: 42px;
+  color: white;
+  margin: 0 0 20px;
+}
+
+.column > p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #999;
+  margin: 0 0 25px;
+} 
+
+/* Information Cards */
+/* .cards-direction {
+  display: flex;
+  flex-direction: row;
+  gap: 22px;
+  margin: 10px 0;
+  width: 100%;
+} */
+
+ .each-card {
+  flex: 1;
+  min-width: 0;
+  box-sizing: border-box;
+  padding: 20px 25px;
+  background-color: #1e1e1e;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  overflow-wrap: anywhere;
+} 
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  font-size: 21px;
+}
+
+.icons i {
+  color: #f5f4f0;
+  cursor: pointer;
+} */
+
+.icons i:hover {
+  color: #c6ff32;
+}
+/* Fix text direction and layout */
+.about,
+.about * {
+  writing-mode: horizontal-tb;
+  text-orientation: mixed;
+}
+
+.align,
+.column,
+.cards-direction,
+.each-card {
+  transform: none;
+}
+
+.align {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.laptop {
+  width: 45%;
+  height: 450px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.column {
+  flex: 1;
+  min-width: 0;
+  text-align: left;
+}
+
+.column h2,
+.column p {
+  transform: none;
+  white-space: normal;
+  overflow-wrap: break-word;
+}
+
+.cards-direction {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
+}
+
+.each-card {
+  flex: 1;
+  min-width: 0;
+  box-sizing: border-box;
+}
+
+

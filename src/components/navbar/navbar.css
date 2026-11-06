@@ -1,0 +1,58 @@
+
+.navbar{
+  min-height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  padding: 8px 10px; 
+  background: #050505;
+  border: 1px solid #222;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+.logo img {
+  object-fit: contain;
+}
+.listitems {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.listitems a {
+  color: white;
+  text-decoration: none;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.listitems a:hover,
+.listitems a.yellow {
+  color: greenyellow;
+}
+.uff {
+  background: greenyellow;
+  color: black;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 7px;
+  font-size: 12px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+.uff span {
+  font-size: 17px;
+  margin-left: 5px;
+}
